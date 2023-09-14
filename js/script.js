@@ -200,13 +200,13 @@ function confirmar() {
         'numero': numeroDigitado
       })
       console.log(`Votou em ${numeroDigitado}`)
+      //uso de ajax para envio de dados a pagina enviar.php, na qual envia dados ao banco
       $.ajax({
         url: 'enviar.php',
         type: 'post',
         dataType: 'html',
         data: {voto: numeroDigitado},
         timeout: 8000,
-       
       })
     } else {
       // Votou nulo
@@ -215,13 +215,13 @@ function confirmar() {
         'numero': null
       })
       console.log('Votou Nulo')
+      //uso de ajax para envio de dados a pagina enviar.php, na qual envia dados ao banco
       $.ajax({
         url: 'enviar.php',
         type: 'post',
         dataType: 'html',
         data: {voto: 'nulo'},
         timeout: 8000,
-       
       })
     }
   } else if (votoEmBranco) {
@@ -231,13 +231,13 @@ function confirmar() {
         'numero': ''
       })
       console.log('Votou em Branco')
+      //uso de ajax para envio de dados a pagina enviar.php, na qual envia dados ao banco
       $.ajax({
         url: 'enviar.php',
         type: 'post',
         dataType: 'html',
         data: {voto: 'branco'},
         timeout: 8000,
-       
       })
   } else {
     // Voto não pode ser confirmado

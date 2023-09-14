@@ -1,4 +1,5 @@
 <?php 
+  // importação do arquivo config para acesso a BD e controle de classe via pasta /classes (Autoload)
     include('config.php');
 ?>
 
@@ -9,6 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <script src="js/util.js"></script>
+  <!-- Import de jquery para uso de ajax -->
   <script src="js/jquery-3.7.1.min.js"></script>
   <script src="js/script.js" defer></script>
   <link rel="stylesheet" href="css/style.css">
@@ -103,6 +105,5 @@
       </div>
     </div>
   </form>
-  <div class="resposta"></div>
 </body>
 </html>
