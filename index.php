@@ -8,7 +8,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Votação | Conselhos</title>
   <script src="js/util.js"></script>
   <!-- Import de jquery para uso de ajax -->
   <script src="js/jquery-3.7.1.min.js"></script>
@@ -105,5 +105,7 @@
       </div>
     </div>
   </form>
+  <footer>Todos os direitos reservados | Cayque Silva © 2023</footer>
+
 </body>
 </html>

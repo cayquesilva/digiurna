@@ -43,5 +43,11 @@
                 echo '<div class="box-alerta erro"><i class="fa fa-times"></i> '.$mensagem.'</div>';
             }
         }
+
+        public static function buscaVoto($table){
+            $sql = MySql::conectar()->prepare("SELECT voto, count(*) FROM `$table` group by voto order by count(*) desc");
+            $sql->execute();
+            return $sql->fetchAll();
+        }
     }
 ?>

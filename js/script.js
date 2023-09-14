@@ -220,7 +220,7 @@ function confirmar() {
         url: 'enviar.php',
         type: 'post',
         dataType: 'html',
-        data: {voto: 'nulo'},
+        data: {voto: 'Nulo'},
         timeout: 8000,
       })
     }
@@ -236,7 +236,7 @@ function confirmar() {
         url: 'enviar.php',
         type: 'post',
         dataType: 'html',
-        data: {voto: 'branco'},
+        data: {voto: 'Branco'},
         timeout: 8000,
       })
   } else {

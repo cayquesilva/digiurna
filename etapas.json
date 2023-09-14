@@ -6,6 +6,7 @@
             "12": {
                 "nome": "Chiquinho do Adbon",
                 "partido": "PDT",
+                "numero": "12",
                 "foto": "cp3.jpg",
                 "vice": {
                     "nome": "Arão",
@@ -16,6 +17,7 @@
             "15": {
                 "nome": "Malrinete Gralhada",
                 "partido": "MDB",
+                "numero": "15",
                 "foto": "cp2.jpg",
                 "vice": {
                     "nome": "Biga",
@@ -26,6 +28,7 @@
             "45": {
                 "nome": "Dr. Francisco",
                 "partido": "PSC",
+                "numero": "45",
                 "foto": "cp1.jpg",
                 "vice": {
                     "nome": "João Rodrigues",
@@ -36,6 +39,7 @@
             "54": {
                 "nome": "Zé Lopes",
                 "partido": "PPL",
+                "numero": "54",
                 "foto": "cp4.jpg",
                 "vice": {
                     "nome": "Francisca Ferreira Ramos",
@@ -47,6 +51,7 @@
                 "nome": "Lindomar Pescador",
                 "partido": "PC do B",
                 "foto": "cp5.jpg",
+                "numero": "65",
                 "vice": {
                     "nome": "Malú",
                     "partido": "PC do B",
